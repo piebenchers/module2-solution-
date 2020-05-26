@@ -1,1 +1,130 @@
-theme: jekyll-theme-cayman
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0px;
+            font-family: Helvetica;
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .col-lg-3 {
+            padding: 10px;
+        }
+
+        p {
+            background-color: rgb(192, 192, 192);
+            border: 1px solid black;
+            padding-left: 20px;
+            box-sizing: border-box;
+            /* margin: 10px; */
+            margin: 0px;
+            /* position :relative; */
+            height: fit-content;
+            /* margin-top: 55px; */
+        }
+
+        section {
+            padding: 10px;
+            width: 110px;
+            text-align: center;
+            border: 1px solid black;
+            box-sizing: border-box;
+            position: relative;
+            float: right;
+            clear : left;
+            /* top: 40px; */
+        }
+
+        #Chicken {
+            background-color: pink;
+
+        }
+
+        #Beef {
+            background-color: rgb(245, 99, 99)
+        }
+
+        #Sushi {
+            background-color: rgb(247, 215, 147);
+        }
+
+        @media (min-width: 992px) {
+            .col-lg-3 {
+                float: left;
+                width: 33.33%;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            .col-md-6 {
+                float: left;
+                width: 50%;
+            }
+            .col-md-12 {
+                float: left;
+                width: 100%;
+            }
+        }
+        
+
+        .row {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>OUR MENU</h1>
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <section id="Chicken">Chicken</section>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <section id="Beef">Beef</section>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="col-lg-3 col-md-12">
+            <section id="Sushi">Sushi</section>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                essentially
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                passages, and more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+</body>
+
+</html>
